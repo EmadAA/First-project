@@ -1,0 +1,352 @@
+body{
+    /* margin-left: 100px; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    background-color: black;
+}
+html{
+    scroll-behavior:smooth ;
+}
+.navbar{
+    display:flex ;
+    margin: 0, auto;
+    align-content: center;
+    /* justify-content: space-between; */
+    padding: 15px 0;
+}
+.link{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.link-2{
+    text-decoration: none;
+    color:rgb(194, 187, 187);
+    font-weight: 600;
+    padding: 10px 10px;
+}
+.link-2:hover{
+    text-decoration: underline;
+    color:white;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+.link:hover{
+    color: rgb(173, 173, 14);
+    border-bottom: 2px solid rgb(173, 173, 14);
+}
+.link:active{
+    border-bottom: 2px solid rgb(173, 173, 14);
+}
+
+.btn{
+    padding: 5px;
+    height: 30px;
+    width: 100px;
+    border: 1px solod brown;
+    border-radius: 50px;
+    background-color:#E64B4B;
+    cursor: pointer;
+    margin-left: 250px;
+}
+.logo{
+    width: 80px;
+    background-color: blanchedalmond;
+    height: auto;
+    margin-right: 300px;
+    margin-left: 50px
+}
+.line{
+   color: white;
+   width:90%;
+   display: flex;
+   margin-left: 100px;
+}
+.img-top{
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+ }
+ .headline{
+     color: #E99B02;
+     /* font-size: 25px; */
+     text-align: center;
+ }
+ .box{
+     background-color: #161515;
+     border-radius: 10px;
+     padding: 5px;
+     width: 300px;
+     text-align: center;
+     margin-left: 50px;
+ }
+ .box img{
+     height: 150px;
+     width: 150px;
+     padding: 0 auto;
+    
+ }
+ .line-2{
+     background-color: #222222;
+     width: 90%;
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+     margin-left: 50px;
+ }
+ .line-2 div h2{
+     color: rgb(180, 180, 21);
+     border-bottom: 2px solid darkgoldenrod;
+     padding-bottom: 5px;
+     display: inline; 
+ }
+ .line-2 div h1{
+     color: darkgray;
+     font-size: 20px;
+     }
+     .line-2 div img{
+         border-radius: 15px;
+     }
+
+ .half-width{
+     padding-left: 35px;
+ }
+ .line-2 div span{
+     color: white;
+ }
+ .btn-2{
+     background: transparent;
+     border: 2px solid darkgoldenrod;
+     color:darkorange;
+     font-weight: 700;
+     border-radius: 15px;
+     padding: 10px;
+     cursor: pointer;
+ }
+ .service{
+     text-align: center;
+     justify-content: space-between;
+ }
+ .service h2{
+     color: darkorange;
+ }
+ .service h1{
+  color: antiquewhite;
+ }
+ .service p{
+     color:white;
+ }
+ .project{
+     background-color: #09102D;
+ }
+ 
+ .img-pro img{
+     height:200px;
+     width: 200px;
+     padding: 15px;
+ }
+ .section-3 div h2{
+     color: darkgoldenrod;
+     display: inline;
+     border-bottom: 2px solid darkgoldenrod;
+     padding: 5px;
+ }
+ .img-bottom img{
+     height: 200px;
+     width: 250px;
+     position: relative;
+ }
+ .img-bottom{
+     display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 150px;
+    background-color: #222222;
+    height: 300px;
+ }
+ .relative img{
+    filter: saturate(30%);
+    filter:brightness(40%);
+    margin: 10px;
+    border-radius: 10px;
+ }
+ .absolute h3{
+    color: white;
+ }
+ .relative{
+     position: relative;
+     
+ }
+ .absolute{
+     position: absolute;
+     top: 50px;
+     /* right: 5px; */
+     left: 50px;
+ }
+ .btn-3{
+    background: transparent;
+    border: 2px solid darkgoldenrod;
+    border-radius: 15px;
+    padding:10px;
+    color: darkgoldenrod;
+    font-weight:900;
+    position: absolute;
+    top: 550px;
+ }
+ .section-3{
+     position: relative;
+     background-color: #222222;
+ }
+ .happy{
+     text-align: center; 
+     background-color: #09102D;
+ }
+ .happy h1{
+     color: darkgoldenrod;
+     border-bottom: 2px solid darkgoldenrod;
+     padding: 15px;
+     display: inline;
+     
+ }
+ .happy img{
+     height: 30px;
+     width: 30px;
+     border-radius: 50%;
+ }
+ .happy div h3,p{
+     color: white;
+     font-size: 10px;
+     display: inline;
+  }
+  .pp{
+    width: 500px;
+  }
+.ceo{
+    display: flex;
+    justify-content: center; 
+}
+.form h1{
+    color: darkgoldenrod;
+    border-bottom: 2px solid darkgoldenrod;
+    /* width: 300px; */
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    display: inline;
+}
+.text{
+    width: 200px;
+    background: transparent;
+    color: darkgoldenrod;
+    border: 1px solid darkgoldenrod;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+.em-te{
+    width: 425px;
+    background: transparent;
+    color: darkgoldenrod;
+    border: 1px solid darkgoldenrod;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+.btn-4{
+    width: 435px;
+    background-color: #FEAA02;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+.final{
+    background-color: #222222;
+}
+.final h3{
+    color: darkgoldenrod;
+    border-bottom: 1px solid darkgoldenrod;
+    display: inline;
+}
+.final h4{
+    color: white;
+}
+.final img{
+    height: 100px;
+    width: 100px;
+    padding: 35px;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+
+}
+.footer img{
+    height: 35px;
+    width: 70px;
+    padding-left: 20px;
+}
+span{
+    color: white;
+    font-size: 5px;
+    width: 300px;
+}
+.footer div h3{
+    color: darkgoldenrod;
+    border-bottom: 1px solid darkgoldenrod;
+    display: inline;
+}
+.footer div li a{
+    text-decoration: none;
+    color: white;
+}
+.footer div li{
+    list-style: none;
+    padding: 15px;
+}
+.list{
+    color: darkgoldenrod;
+    
+}
+.fotter-last{
+    padding: 10px;
+    
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        scroll-behavior: smooth;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        scroll-behavior: smooth;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        scroll-behavior: smooth;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        scroll-behavior: smooth;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        scroll-behavior: smooth;
+    }
+}
